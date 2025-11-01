@@ -1,0 +1,254 @@
+/* Styles globaux */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+/* En-tête */
+header {
+    width: 100%;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    background-color: #ffffff;
+}
+
+header h1, header h2, header h3 {
+    margin: 0;
+    padding: 10px 0;
+}
+
+.subtitle h1 {
+    font-size: 24px;
+}
+
+.subtitle h2 {
+    font-size: 20px;
+    color: #555;
+}
+
+.subtitle h3 {
+    font-size: 16px;
+    color: #777;
+}
+
+/* Barre de menu */
+.menu-bar {
+    background-color: #004080;
+    padding: 10px 0;
+}
+
+.menu-bar ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.menu-bar li {
+    display: inline;
+}
+
+.menu-bar a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* Conteneur principal */
+main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Conteneur de la table */
+.results-table-container {
+    width: 100%;
+    max-width: 1200px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.results-table {
+    width: 100%;
+}
+
+/* Table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 18px;
+    text-align: left;
+    background-color: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+    padding: 12px 15px;
+}
+
+thead th {
+    background-color: #004080;
+    color: #ffffff;
+    text-align: center;
+    font-weight: bold;
+}
+
+tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+tbody tr:last-of-type {
+    border-bottom: 2px solid #004080;
+}
+
+thead th, tbody td {
+    padding: 12px;
+    text-align: center;
+}
+
+/* Bordure pour la formule de la compétition */
+.formula-container {
+    border: 2px solid #004080;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+/* Couleurs des médailles */
+.gold-medal {
+    background-color: gold !important;
+}
+
+.silver-medal {
+    background-color: silver !important;
+}
+
+.bronze-medal {
+    background-color: #a67d3d !important;
+}
+
+.red {
+    background-color: rgb(143, 5, 5) !important;
+}
+
+/* Classes pour les cellules de résultats */
+.black-cell {
+    background-color: black;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+}
+
+.green-cell {
+    background-color: #32CD32;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+}
+
+.red-cell {
+    background-color: #FF6347;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+}
+
+/* Conteneur des informations du tireur */
+.fencer-info {
+    width: 100%;
+    max-width: 800px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+}
+
+.fencer-info h2 {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.fencer-info p {
+    font-size: 18px;
+    color: #333;
+}
+
+/* Conteneur des matchs */
+.fencer-matches {
+    width: 100%;
+    max-width: 800px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.fencer-matches h3 {
+    font-size: 20px;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.fencer-matches .poules-matches,
+.fencer-matches .tableau-matches {
+    margin-bottom: 20px;
+}
+
+.fencer-matches h4 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #555;
+}
+
+.fencer-matches ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.fencer-matches li {
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+    font-size: 16px;
+    color: #333;
+}
+
+.button-container {
+    margin-bottom: 20px;
+    text-align: center;
+}
+.button-container button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 0 5px; /* Ajouter un espace entre les boutons */
+}
+
+
+
+
+
